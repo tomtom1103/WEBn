@@ -104,10 +104,21 @@ localScope();
 //local scoping. only accessible inside the function
 
 
+function testElseIf(val){
+    if (val > 10){
+        return "greater than 10";
+    }
 
+    if (val < 5){
+        return "smaller than 5";
+    }
 
+    return "bewteen 5 and 10";
+}
 
+console.log(testElseIf(7));
 
+///
 
 
 
